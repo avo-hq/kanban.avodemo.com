@@ -55,3 +55,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem "avo", ">= 3.2"
