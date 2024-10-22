@@ -5,9 +5,9 @@ require_relative "./seed_helpers"
 puts ["Started seeding->"].inspect
 
 # == Tear-down ==
-# Avo::Kanban::Board.delete_all
-# Avo::Kanban::Column.delete_all
-# Avo::Kanban::Item.delete_all
+Avo::Kanban::Board.delete_all
+Avo::Kanban::Column.delete_all
+Avo::Kanban::Item.delete_all
 User.delete_all
 Project.delete_all
 
@@ -21,22 +21,22 @@ create_admin
 create_users
 create_projects
 
-# board = Avo::Kanban::Board.create!(name: "My board", allowed_resources: ["Avo::Resources::User", "Avo::Resources::Project"], property: "status")
+board = Avo::Kanban::Board.create!(name: "My board", allowed_resources: ["Avo::Resources::User", "Avo::Resources::Project"], property: "status")
 
-# no_status = board.columns.create!(name: "No status", value: nil)
-# triage = board.columns.create!(name: "Triage")
-# todo = board.columns.create!(name: "To do")
-# in_progress = board.columns.create!(name: "In progress")
-# done = board.columns.create!(name: "Done")
-# stopped = board.columns.create!(name: "Stopped")
+no_status = board.columns.create!(name: "No status", value: nil)
+triage = board.columns.create!(name: "Triage")
+todo = board.columns.create!(name: "To do")
+in_progress = board.columns.create!(name: "In progress")
+done = board.columns.create!(name: "Done")
+stopped = board.columns.create!(name: "Stopped")
 
-# triage.items.create!(record: User.last, board:)
-# triage.items.create!(record: User.last, board:)
-# todo.items.create!(record: User.first, board:)
-# todo.items.create!(record: Project.first, board:)
-# todo.items.create!(record: Project.last, board:)
-# in_progress.items.create!(record: User.second, board:)
-# done.items.create!(record: User.third, board:)
+triage.items.create!(record: User.last, board:)
+triage.items.create!(record: User.last, board:)
+todo.items.create!(record: User.first, board:)
+todo.items.create!(record: Project.first, board:)
+todo.items.create!(record: Project.last, board:)
+in_progress.items.create!(record: User.second, board:)
+done.items.create!(record: User.third, board:)
 
 # generate 10 projects with dummy data
 
@@ -56,16 +56,16 @@ end
 
 # # ---------------------------------- USERS ---------------------------------- #
 # User.delete_all
-# random_users_number = 350
+random_users_number = 350
 
-# users_progress_bar = ProgressBar.create(
-#   progress_params(total: random_users_number, title: "Creating users and assigning to a board column")
-# )
+users_progress_bar = ProgressBar.create(
+  progress_params(total: random_users_number, title: "Creating users and assigning to a board column")
+)
 
-# random_users_number.times do |i|
-#   [todo, triage, in_progress, done].sample.items.create!(record: FactoryBot.create(:user), board:)
-#   users_progress_bar.increment
-# end
+random_users_number.times do |i|
+  [todo, triage, in_progress, done].sample.items.create!(record: FactoryBot.create(:user), board:)
+  users_progress_bar.increment
+end
 
 # -====================- #
 
