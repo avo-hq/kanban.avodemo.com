@@ -4,7 +4,7 @@ class CreateAvoKanban < ActiveRecord::Migration[7.2]
       t.string :name
       t.integer :columns_count, default: 0
       t.integer :items_count, default: 0
-      t.jsonb :settings
+      t.json :settings
 
       t.timestamps
     end
@@ -14,7 +14,7 @@ class CreateAvoKanban < ActiveRecord::Migration[7.2]
       t.references :board, null: true
       t.integer :position
       t.integer :items_count, default: 0
-      t.jsonb :settings
+      t.json :settings
 
       t.timestamps
     end

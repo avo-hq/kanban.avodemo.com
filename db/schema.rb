@@ -11,9 +11,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.2].define(version: 2024_10_22_130700) do
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
     t.string "record_type", null: false
@@ -46,28 +43,28 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_22_130700) do
     t.string "name"
     t.integer "columns_count", default: 0
     t.integer "items_count", default: 0
-    t.jsonb "settings"
+    t.json "settings"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "avo_kanban_columns", force: :cascade do |t|
     t.string "name"
-    t.bigint "board_id"
+    t.integer "board_id"
     t.integer "position"
     t.integer "items_count", default: 0
-    t.jsonb "settings"
+    t.json "settings"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["board_id"], name: "index_avo_kanban_columns_on_board_id"
   end
 
   create_table "avo_kanban_items", force: :cascade do |t|
-    t.bigint "board_id"
-    t.bigint "column_id"
+    t.integer "board_id"
+    t.integer "column_id"
     t.integer "position"
     t.string "record_type"
-    t.bigint "record_id"
+    t.integer "record_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["board_id"], name: "index_avo_kanban_items_on_board_id"
@@ -85,7 +82,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_22_130700) do
     t.json "meta"
     t.text "description"
     t.integer "progress"
-    t.bigint "user_id"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_projects_on_user_id"

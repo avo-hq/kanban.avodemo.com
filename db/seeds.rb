@@ -11,9 +11,9 @@ Avo::Kanban::Item.delete_all
 User.delete_all
 Project.delete_all
 
-ActiveRecord::Base.connection.tables.each do |table_name|
-  ActiveRecord::Base.connection.reset_pk_sequence!(table_name)
-end
+# ActiveRecord::Base.connection.tables.each do |table_name|
+#   ActiveRecord::Base.connection.reset_pk_sequence!(table_name)
+# end
 
 # == Start seeding ==
 
