@@ -68,19 +68,33 @@ def create_users
 end
 
 def create_admin
-  return if User.exists?(email: "avo@avohq.io")
+  if !User.exists?(email: "avo@avohq.io")
+    User.create(
+      first_name: "Avo",
+      last_name: "Cado",
+      email: "avo@avohq.io",
+      password: (ENV["AVO_ADMIN_PASSWORD"] || :secret),
+      roles: {
+        admin: true,
+        manager: false,
+        writer: false
+      }
+    )
+  end
 
-  User.create(
-    first_name: "Avo",
-    last_name: "Cado",
-    email: "avo@avohq.io",
-    password: (ENV["AVO_ADMIN_PASSWORD"] || :secret),
-    roles: {
-      admin: true,
-      manager: false,
-      writer: false
-    }
-  )
+  if !User.exists?(email: "avo@cado.com")
+    User.create(
+      first_name: "Avo",
+      last_name: "Cado",
+      email: "avo@cado.com",
+      password: (ENV["AVO_ADMIN_PASSWORD"] || :secret),
+      roles: {
+        admin: true,
+        manager: false,
+        writer: false
+      }
+    )
+  end
 end
 
 def create_projects

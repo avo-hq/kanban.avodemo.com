@@ -67,3 +67,4 @@ gem "factory_bot_rails", "~> 6.2"
 gem "faker", "~> 3.1", ">= 3.1.1"
 
 gem "avo-kanban", source: "https://packager.dev/avo-hq/"
+gem "tailwindcss-rails", "~> 3.0"
