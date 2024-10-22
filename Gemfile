@@ -56,7 +56,9 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "avo-advanced", ">= 3.2"
+gem "avo-advanced", source: "https://packager.dev/avo-hq/"
+gem "avo", ">= 3.2"
+
 gem "devise", "~> 4.9"
 gem "annotate", "~> 3.2"
 gem "progressbar", "~> 1.13"

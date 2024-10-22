@@ -1,6 +1,11 @@
 GEM
   remote: https://packager.dev/avo-hq/
   specs:
+    avo-advanced (3.13.6)
+      avo (= 3.13.6)
+      avo-dynamic_filters (= 3.13.6)
+      avo-pro (= 3.13.6)
+      zeitwerk (>= 2.6.12)
     avo-dashboards (3.13.6)
       avo (= 3.13.6)
       turbo-rails
@@ -11,7 +16,7 @@ GEM
       ransack (>= 4.2.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-kanban (0.1.9)
+    avo-kanban (0.1.10)
       acts_as_list (~> 1.1)
       avo (>= 3.13.6)
       hotwire_combobox
@@ -124,11 +129,6 @@ GEM
       turbo-rails (>= 2.0.0)
       turbo_power (>= 0.6.0)
       view_component (>= 3.7.0)
-      zeitwerk (>= 2.6.12)
-    avo-advanced (3.13.6)
-      avo (= 3.13.6)
-      avo-dynamic_filters (= 3.13.6)
-      avo-pro (= 3.13.6)
       zeitwerk (>= 2.6.12)
     base64 (0.2.0)
     bcrypt (3.1.20)
@@ -412,7 +412,8 @@ PLATFORMS
 
 DEPENDENCIES
   annotate (~> 3.2)
-  avo-advanced (>= 3.2)
+  avo (>= 3.2)
+  avo-advanced!
   avo-kanban!
   bootsnap
   brakeman
