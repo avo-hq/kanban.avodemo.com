@@ -3,7 +3,10 @@ class Avo::Resources::Board < Avo::BaseResource
 
   self.edit_controls = -> {
     default_controls
-    link_to "Go to board", avo_kanban.board_path(record), color: :primary, style: :primary, icon: "heroicons/outline/arrow-right"
+
+    if record.persisted?
+      link_to "Go to board", avo_kanban.board_path(record), color: :primary, style: :primary, icon: "heroicons/outline/arrow-right"
+    end
   }
 
   self.show_controls = -> {

@@ -140,20 +140,24 @@ Avo.configure do |config|
   #   add_breadcrumb "Home", '/avo'
   # end
 
-  ## == Menus ==
-  # config.main_menu = -> {
-  #   section "Dashboards", icon: "avo/dashboards" do
-  #     all_dashboards
-  #   end
+  # == Menus ==
+  config.main_menu = -> {
+    section "Boards", icon: "heroicons/outline/clipboard-document-list" do
+      all_boards
+    end
 
-  #   section "Resources", icon: "avo/resources" do
-  #     all_resources
-  #   end
+    section "Dashboards", icon: "avo/dashboards" do
+      all_dashboards
+    end
 
-  #   section "Tools", icon: "avo/tools" do
-  #     all_tools
-  #   end
-  # }
+    section "Resources", icon: "avo/resources" do
+      all_resources
+    end
+
+    section "Tools", icon: "avo/tools" do
+      all_tools
+    end
+  }
   # config.profile_menu = -> {
   #   link "Profile", path: "/avo/profile", icon: "heroicons/outline/user-circle"
   # }

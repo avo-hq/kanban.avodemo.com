@@ -1,18 +1,18 @@
 GEM
   remote: https://packager.dev/avo-hq/
   specs:
-    avo-advanced (3.13.6)
-      avo (= 3.13.6)
-      avo-dynamic_filters (= 3.13.6)
-      avo-pro (= 3.13.6)
+    avo-advanced (3.13.7)
+      avo (= 3.13.7)
+      avo-dynamic_filters (= 3.13.7)
+      avo-pro (= 3.13.7)
       zeitwerk (>= 2.6.12)
-    avo-dashboards (3.13.6)
-      avo (= 3.13.6)
+    avo-dashboards (3.13.7)
+      avo (= 3.13.7)
       turbo-rails
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-dynamic_filters (3.13.6)
-      avo (= 3.13.6)
+    avo-dynamic_filters (3.13.7)
+      avo (= 3.13.7)
       ransack (>= 4.2.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
@@ -20,14 +20,14 @@ GEM
       acts_as_list (~> 1.1)
       avo (>= 3.13.6)
       hotwire_combobox
-    avo-menu (3.13.6)
-      avo (= 3.13.6)
+    avo-menu (3.13.7)
+      avo (= 3.13.7)
       docile
       zeitwerk (>= 2.6.12)
-    avo-pro (3.13.6)
-      avo (= 3.13.6)
-      avo-dashboards (= 3.13.6)
-      avo-menu (= 3.13.6)
+    avo-pro (3.13.7)
+      avo (= 3.13.7)
+      avo-dashboards (= 3.13.7)
+      avo-menu (= 3.13.7)
       zeitwerk (>= 2.6.12)
 
 GEM
@@ -115,7 +115,7 @@ GEM
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
     ast (2.4.2)
-    avo (3.13.6)
+    avo (3.13.7)
       actionview (>= 6.1)
       active_link_to
       activerecord (>= 6.1)
