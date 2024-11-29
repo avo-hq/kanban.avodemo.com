@@ -1,18 +1,18 @@
 GEM
   remote: https://packager.dev/avo-hq/
   specs:
-    avo-advanced (3.14.1)
-      avo (= 3.14.1)
-      avo-dynamic_filters (= 3.14.1)
-      avo-pro (= 3.14.1)
+    avo-advanced (3.14.5)
+      avo (= 3.14.5)
+      avo-dynamic_filters (= 3.14.5)
+      avo-pro (= 3.14.5)
       zeitwerk (>= 2.6.12)
-    avo-dashboards (3.14.1)
-      avo (= 3.14.1)
+    avo-dashboards (3.14.5)
+      avo (= 3.14.5)
       turbo-rails
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-dynamic_filters (3.14.1)
-      avo (= 3.14.1)
+    avo-dynamic_filters (3.14.5)
+      avo (= 3.14.5)
       ransack (>= 4.2.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
@@ -20,14 +20,14 @@ GEM
       acts_as_list (~> 1.1)
       avo (>= 3.14.1)
       hotwire_combobox
-    avo-menu (3.14.1)
-      avo (= 3.14.1)
+    avo-menu (3.14.5)
+      avo (= 3.14.5)
       docile
       zeitwerk (>= 2.6.12)
-    avo-pro (3.14.1)
-      avo (= 3.14.1)
-      avo-dashboards (= 3.14.1)
-      avo-menu (= 3.14.1)
+    avo-pro (3.14.5)
+      avo (= 3.14.5)
+      avo-dashboards (= 3.14.5)
+      avo-menu (= 3.14.5)
       zeitwerk (>= 2.6.12)
 
 GEM
@@ -116,7 +116,7 @@ GEM
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
     ast (2.4.2)
-    avo (3.14.1)
+    avo (3.14.5)
       actionview (>= 6.1)
       active_link_to
       activerecord (>= 6.1)
@@ -216,7 +216,7 @@ GEM
       actionpack (>= 6.0.0, < 8.1)
     method_source (1.1.0)
     mini_mime (1.1.5)
-    minitest (5.25.1)
+    minitest (5.25.2)
     msgpack (1.7.3)
     net-imap (0.5.1)
       date
@@ -241,7 +241,7 @@ GEM
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    pagy (9.3.1)
+    pagy (9.3.2)
     parallel (1.26.3)
     parser (3.3.5.0)
       ast (~> 2.4.1)
@@ -300,7 +300,7 @@ GEM
     rdoc (6.8.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.2)
-    reline (0.5.11)
+    reline (0.5.12)
       io-console (~> 0.5)
     responders (3.1.1)
       actionpack (>= 5.2)
