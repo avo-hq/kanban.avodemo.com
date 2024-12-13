@@ -62,7 +62,7 @@ gem "avo", ">= 3.2"
 gem "devise", "~> 4.9"
 gem "annotate", "~> 3.2"
 gem "progressbar", "~> 1.13"
-gem "dotenv-rails", "~> 2.8", ">= 2.8.1"
+gem "dotenv-rails", "~> 3.1"
 gem "factory_bot_rails", "~> 6.2"
 gem "faker", "~> 3.1", ">= 3.1.1"
 
