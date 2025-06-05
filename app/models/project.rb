@@ -31,12 +31,7 @@ class Project < ApplicationRecord
   # has_and_belongs_to_many :users, inverse_of: :projects
 
   default_scope { order(name: :asc) }
-
-  # TODO: refactor this so the user doesn't have to do it
-  def to_combobox_display
-    name
-  end
-
+  
   # def status=(value)
   #   type_of_status = value.to_sym
   # end
