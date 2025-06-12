@@ -16,7 +16,7 @@ GEM
       ransack (>= 4.2.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-kanban (0.1.21)
+    avo-kanban (0.1.22)
       acts_as_list (~> 1.1)
       avo (>= 3.21.0)
       hotwire_combobox (~> 0.4.0)
