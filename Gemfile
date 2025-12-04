@@ -55,9 +55,12 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
-gem "avo-advanced", source: "https://packager.dev/avo-hq/"
-gem "avo", ">= 3.2"
+source "https://packager.dev/avo-hq/" do
+  gem "avo", "4.0.34.alpha"
+  gem "avo-advanced", "4.0.34.alpha"
+  gem "avo-kanban", "4.0.0.alpha"
+  gem "avo-licensing", "1.0.1.alpha"
+end
 
 gem "devise", "~> 4.9"
 gem "annotate", "~> 3.2"
@@ -66,5 +69,6 @@ gem "dotenv-rails", "~> 2.8", ">= 2.8.1"
 gem "factory_bot_rails", "~> 6.2"
 gem "faker", "~> 3.1", ">= 3.1.1"
 
-gem "avo-kanban", source: "https://packager.dev/avo-hq/"
 gem "tailwindcss-rails", "~> 3.0"
+
+gem "pagy", "< 43"
