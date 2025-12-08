@@ -19,7 +19,6 @@
 
 # Learn more: http://github.com/javan/whenever
 
-# every 1.day, at: "2:00am" do
-every 1.minutes do
+every 1.day, at: "2:00am" do
   command "cd /home/deploy/kanban_avodemo_com/current && DISABLE_DATABASE_ENVIRONMENT_CHECK=1 bundle exec rake db:seed"
 end
