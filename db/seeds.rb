@@ -2,8 +2,6 @@ require_relative "./seed_helpers"
 
 # AVO_ADMIN_PASSWORD=secret bin/rails db:seed
 
-puts ["Started seeding->"].inspect
-
 # == Tear-down ==
 Avo::Kanban::Board.delete_all
 Avo::Kanban::Column.delete_all

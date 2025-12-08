@@ -72,3 +72,4 @@ gem "faker", "~> 3.1", ">= 3.1.1"
 gem "tailwindcss-rails", "~> 3.0"
 
 gem "pagy", "< 43"
+gem "whenever"
