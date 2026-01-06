@@ -58,7 +58,7 @@ end
 source "https://packager.dev/avo-hq/" do
   gem "avo", "4.0.39.alpha"
   gem "avo-advanced", "4.0.39.alpha"
-  gem "avo-kanban", "4.0.0.alpha"
+  gem "avo-kanban", "4.0.1.alpha"
   gem "avo-licensing", "1.0.2.alpha"
 end
 

@@ -34,9 +34,9 @@ GEM
       ransack (>= 4.2.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-kanban (4.0.0.alpha)
+    avo-kanban (4.0.1.alpha)
       acts_as_list (~> 1.1)
-      avo (>= 4.0.34.alpha)
+      avo (>= 3.28.0)
       hotwire_combobox (~> 0.4.0)
     avo-licensing (1.0.2.alpha)
       avo (>= 4.0.37.alpha)
@@ -455,7 +455,7 @@ DEPENDENCIES
   annotate (~> 3.2)
   avo (= 4.0.39.alpha)!
   avo-advanced (= 4.0.39.alpha)!
-  avo-kanban (= 4.0.0.alpha)!
+  avo-kanban (= 4.0.1.alpha)!
   avo-licensing (= 1.0.2.alpha)!
   bootsnap
   brakeman
