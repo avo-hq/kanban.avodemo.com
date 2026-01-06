@@ -1,7 +1,7 @@
 GEM
   remote: https://packager.dev/avo-hq/
   specs:
-    avo (4.0.34.alpha)
+    avo (4.0.39.alpha)
       actionview (>= 6.1)
       active_link_to
       activerecord (>= 6.1)
@@ -10,27 +10,27 @@ GEM
       avo-icons (>= 0.1.1)
       docile
       meta-tags
-      pagy (>= 7.0.0)
+      pagy (>= 7.0.0, < 43)
       prop_initializer (>= 0.2.0)
       turbo-rails (>= 2.0.0)
       turbo_power (>= 0.6.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-advanced (4.0.34.alpha)
-      avo (= 4.0.34.alpha)
-      avo-dynamic_filters (= 4.0.34.alpha)
-      avo-licensing (= 1.0.1.alpha)
-      avo-pro (= 4.0.34.alpha)
+    avo-advanced (4.0.39.alpha)
+      avo (= 4.0.39.alpha)
+      avo-dynamic_filters (= 4.0.39.alpha)
+      avo-licensing (= 1.0.2.alpha)
+      avo-pro (= 4.0.39.alpha)
       zeitwerk (>= 2.6.12)
-    avo-dashboards (4.0.34.alpha)
-      avo (= 4.0.34.alpha)
-      avo-licensing (= 1.0.1.alpha)
+    avo-dashboards (4.0.39.alpha)
+      avo (= 4.0.39.alpha)
+      avo-licensing (= 1.0.2.alpha)
       turbo-rails
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-dynamic_filters (4.0.34.alpha)
-      avo (= 4.0.34.alpha)
-      avo-licensing (= 1.0.1.alpha)
+    avo-dynamic_filters (4.0.39.alpha)
+      avo (= 4.0.39.alpha)
+      avo-licensing (= 1.0.2.alpha)
       ransack (>= 4.2.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
@@ -38,18 +38,19 @@ GEM
       acts_as_list (~> 1.1)
       avo (>= 4.0.34.alpha)
       hotwire_combobox (~> 0.4.0)
-    avo-licensing (1.0.1.alpha)
+    avo-licensing (1.0.2.alpha)
+      avo (>= 4.0.37.alpha)
       zeitwerk (>= 2.6.12)
-    avo-menu (4.0.34.alpha)
-      avo (= 4.0.34.alpha)
-      avo-licensing (= 1.0.1.alpha)
+    avo-menu (4.0.39.alpha)
+      avo (= 4.0.39.alpha)
+      avo-licensing (= 1.0.2.alpha)
       docile
       zeitwerk (>= 2.6.12)
-    avo-pro (4.0.34.alpha)
-      avo (= 4.0.34.alpha)
-      avo-dashboards (= 4.0.34.alpha)
-      avo-licensing (= 1.0.1.alpha)
-      avo-menu (= 4.0.34.alpha)
+    avo-pro (4.0.39.alpha)
+      avo (= 4.0.39.alpha)
+      avo-dashboards (= 4.0.39.alpha)
+      avo-licensing (= 1.0.2.alpha)
+      avo-menu (= 4.0.39.alpha)
       zeitwerk (>= 2.6.12)
 
 GEM
@@ -452,10 +453,10 @@ PLATFORMS
 
 DEPENDENCIES
   annotate (~> 3.2)
-  avo (= 4.0.34.alpha)!
-  avo-advanced (= 4.0.34.alpha)!
+  avo (= 4.0.39.alpha)!
+  avo-advanced (= 4.0.39.alpha)!
   avo-kanban (= 4.0.0.alpha)!
-  avo-licensing (= 1.0.1.alpha)!
+  avo-licensing (= 1.0.2.alpha)!
   bootsnap
   brakeman
   capybara
