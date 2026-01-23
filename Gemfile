@@ -73,3 +73,5 @@ gem "tailwindcss-rails", "~> 3.0"
 
 gem "pagy", "< 43"
 gem "whenever"
+
+gem "rorvswild", "~> 1.10"

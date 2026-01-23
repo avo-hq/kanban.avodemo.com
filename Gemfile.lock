@@ -336,6 +336,7 @@ GEM
       actionpack (>= 5.2)
       railties (>= 5.2)
     rexml (3.3.8)
+    rorvswild (1.10.1)
     rubocop (1.67.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -471,6 +472,7 @@ DEPENDENCIES
   progressbar (~> 1.13)
   puma (>= 5.0)
   rails (~> 7.2.1)
+  rorvswild (~> 1.10)
   rubocop-rails-omakase
   selenium-webdriver
   sprockets-rails
@@ -483,4 +485,4 @@ DEPENDENCIES
   whenever
 
 BUNDLED WITH
-   2.5.10
+  4.0.4
