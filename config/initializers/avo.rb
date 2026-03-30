@@ -146,15 +146,15 @@ Avo.configure do |config|
       all_boards
     end
 
-    section "Dashboards", icon: "avo/dashboards" do
+    section "Dashboards", icon: "tabler/outline/layout-dashboard" do
       all_dashboards
     end
 
-    section "Resources", icon: "avo/resources" do
+    section "Resources", icon: "tabler/outline/layout-dashboard" do
       all_resources
     end
 
-    section "Tools", icon: "avo/tools" do
+    section "Tools", icon: "tabler/outline/tools" do
       all_tools
     end
   }
