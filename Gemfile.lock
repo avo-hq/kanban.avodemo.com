@@ -1,41 +1,41 @@
 GEM
   remote: https://packager.dev/avo-hq/
   specs:
-    avo-advanced (4.0.0.beta.5)
-      avo (= 4.0.0.beta.5)
-      avo-dynamic_filters (= 4.0.0.beta.5)
-      avo-licensing (= 4.0.0.beta.2)
-      avo-pro (= 4.0.0.beta.5)
+    avo-advanced (4.0.0.beta.11)
+      avo (>= 4.0.0.beta.26)
+      avo-dynamic_filters (>= 4.0.0.beta.13)
+      avo-licensing (>= 4.0.0.beta.7)
+      avo-pro (>= 4.0.0.beta.16)
       zeitwerk (>= 2.6.12)
-    avo-dashboards (4.0.0.beta.5)
-      avo (= 4.0.0.beta.5)
-      avo-licensing (= 4.0.0.beta.2)
+    avo-dashboards (4.0.0.beta.14)
+      avo (>= 4.0.0.beta.26)
+      avo-licensing (>= 4.0.0.beta.7)
       turbo-rails
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-dynamic_filters (4.0.0.beta.5)
-      avo (= 4.0.0.beta.5)
-      avo-licensing (= 4.0.0.beta.2)
+    avo-dynamic_filters (4.0.0.beta.13)
+      avo (>= 4.0.0.beta.26)
+      avo-licensing (>= 4.0.0.beta.7)
       ransack (>= 4.2.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-kanban (4.0.0.beta.1)
+    avo-kanban (4.0.0.beta.3)
       acts_as_list (~> 1.1)
-      avo (>= 4.0.0.beta.1)
+      avo (>= 4.0.0.beta.7)
       hotwire_combobox (~> 0.4.0)
-    avo-licensing (4.0.0.beta.2)
-      avo (>= 4.0.0.beta.1)
+    avo-licensing (4.0.0.beta.8)
+      avo (>= 4.0.0.beta.27)
       zeitwerk (>= 2.6.12)
-    avo-menu (4.0.0.beta.5)
-      avo (= 4.0.0.beta.5)
-      avo-licensing (= 4.0.0.beta.2)
+    avo-menu (4.0.0.beta.12)
+      avo (>= 4.0.0.beta.26)
+      avo-licensing (>= 4.0.0.beta.7)
       docile
       zeitwerk (>= 2.6.12)
-    avo-pro (4.0.0.beta.5)
-      avo (= 4.0.0.beta.5)
-      avo-dashboards (= 4.0.0.beta.5)
-      avo-licensing (= 4.0.0.beta.2)
-      avo-menu (= 4.0.0.beta.5)
+    avo-pro (4.0.0.beta.16)
+      avo (>= 4.0.0.beta.26)
+      avo-dashboards (>= 4.0.0.beta.14)
+      avo-licensing (>= 4.0.0.beta.7)
+      avo-menu (>= 4.0.0.beta.12)
       zeitwerk (>= 2.6.12)
 
 GEM
@@ -126,17 +126,17 @@ GEM
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
     ast (2.4.3)
-    avo (4.0.0.beta.5)
+    avo (4.0.0.beta.29)
       actionview (>= 6.1)
       active_link_to
       activerecord (>= 6.1)
       activesupport (>= 6.1)
       addressable
-      avo-icons (>= 0.1.1)
+      avo-icons (>= 0.1.2)
       docile
       meta-tags
       pagy (>= 43.0)
-      prop_initializer (>= 0.2.0)
+      prop_initializer (>= 0.3.0)
       turbo-rails (>= 2.0.0)
       turbo_power (>= 0.6.0)
       view_component (>= 3.7.0)
@@ -464,9 +464,9 @@ PLATFORMS
 
 DEPENDENCIES
   annotate (~> 3.2)
-  avo (>= 4.0.0.beta.5)
-  avo-advanced (>= 4.0.0.beta.5)!
-  avo-kanban (>= 4.0.0.beta.1)!
+  avo (= 4.0.0.beta.29)
+  avo-advanced (= 4.0.0.beta.11)!
+  avo-kanban (= 4.0.0.beta.3)!
   bootsnap
   brakeman
   capybara
@@ -509,15 +509,15 @@ CHECKSUMS
   addressable (2.8.9) sha256=cc154fcbe689711808a43601dee7b980238ce54368d23e127421753e46895485
   annotate (3.2.0) sha256=9a61baa1fb13880aa3a8d9f62553889bb2a3b7970f88bbc66d3ac75a567780d3
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
-  avo (4.0.0.beta.5) sha256=2179ba07cce05c11d3cf5b6c3272020fd0a970ebafdc5e7e6a1154dd87134e2f
-  avo-advanced (4.0.0.beta.5) sha256=e9f4d5612f3cef10c4569a58b475512c3621865f5c170b86453ce71f224f3096
-  avo-dashboards (4.0.0.beta.5) sha256=e582aec23030a5be803180ce68abd56e2c7bd5ac26a07cf4c2923159e6c74832
-  avo-dynamic_filters (4.0.0.beta.5) sha256=9169c5ab69e6ff0999303f8e697d1dada66ef0e1adaa5f860355c5ccfb932963
+  avo (4.0.0.beta.29) sha256=98d6ec63f1350c7757647d6e0a3f6962f57c749fdbe2e2ea1e19661e7539924c
+  avo-advanced (4.0.0.beta.11) sha256=19c740bc1d28098042952de2422706a08090eeba67774ad91cb65cfd9f3ed6af
+  avo-dashboards (4.0.0.beta.14) sha256=7c36983f46d31382453446a91416374364e4cad920905ef4496a5ad9a5a9e647
+  avo-dynamic_filters (4.0.0.beta.13) sha256=acf635643dc0cb97b34c551103b67fb1ffd1541424e37ad0dd39c1546b63d53c
   avo-icons (0.1.2) sha256=6dfa1f9d9b3bee6020089684805ec1c26ab13ac886540324a242856d371ea01a
-  avo-kanban (4.0.0.beta.1) sha256=cd731fa823affb4e95ce60a1f861a71e357edb6ec4af68cfc535a4369e9783ca
-  avo-licensing (4.0.0.beta.2) sha256=5a0f09891fd6de38fa0bafb18ed09489fac8fd779ac0be82eb7ae75ff62119f0
-  avo-menu (4.0.0.beta.5) sha256=5f382d0d2cd4c9c1edc8b912f3a40c3ccf94b5005393429fc3d851cedfcca7a6
-  avo-pro (4.0.0.beta.5) sha256=6622f6b734a188b4fa0fc1e77d2a2f640d4bc7f9e79f1ac6513dc30fb26a91f5
+  avo-kanban (4.0.0.beta.3) sha256=0fe6963573e12b3dcbb344cbeecf2f21d208cccbbaf11b04a5aced38f892216d
+  avo-licensing (4.0.0.beta.8) sha256=da44656e60b6f82a3d3f3bf962f2b8e626a704cfa0d3c2f9b7ba6cf6c1f41b04
+  avo-menu (4.0.0.beta.12) sha256=0a172f1628716a10dd02479ec532e53b099f6999e119ca63974c6f5fcc3eed44
+  avo-pro (4.0.0.beta.16) sha256=1408a8b88ba0b73298c2a3b95e17cc2c5893212fa5fc090a1920f53b37bde059
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   bcrypt (3.1.22) sha256=1f0072e88c2d705d94aff7f2c5cb02eb3f1ec4b8368671e19112527489f29032
   benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
