@@ -55,11 +55,12 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "avo", "4.0.0.beta.29"
+
 source "https://packager.dev/avo-hq/" do
-  gem "avo", "4.0.39.alpha"
-  gem "avo-advanced", "4.0.39.alpha"
-  gem "avo-kanban", "4.0.1.alpha"
-  gem "avo-licensing", "1.0.2.alpha"
+  gem "avo-advanced", ">= 4.0.0.beta"
+  gem "avo-kanban", ">= 4.0.0.beta"
 end
 
 gem "devise", "~> 4.9"
@@ -71,5 +72,4 @@ gem "faker", "~> 3.1", ">= 3.1.1"
 
 gem "tailwindcss-rails", "~> 3.0"
 
-gem "pagy", "< 43"
 gem "whenever"
