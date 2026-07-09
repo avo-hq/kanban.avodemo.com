@@ -56,7 +56,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "avo", "4.0.0"
+gem "avo", "> 4.0.0"
 
 source "https://packager.dev/avo-hq/" do
   gem "avo-dashboards", "4.0.0"
