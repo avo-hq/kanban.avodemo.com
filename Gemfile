@@ -56,11 +56,19 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "avo", ">= 4.0.0.beta"
+gem "avo", "4.0.0"
 
 source "https://packager.dev/avo-hq/" do
-  gem "avo-advanced", ">= 4.0.0.beta"
-  gem "avo-kanban", ">= 4.0.0.beta"
+  gem "avo-dashboards", "4.0.0"
+  gem "avo-menu", "4.0.0"
+  gem "avo-advanced_search", "4.0.0"
+  gem "avo-authorization", "4.0.0"
+  gem "avo-record_reordering", "4.0.0"
+  gem "avo-scopes", "4.0.0"
+  gem "avo-custom_controls", "4.0.0"
+  gem "avo-dynamic_filters", "4.0.0"
+  gem "avo-nested", "4.0.0"
+  gem "avo-kanban", "4.0.0"
 end
 
 gem "devise", "~> 4.9"
