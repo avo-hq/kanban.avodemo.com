@@ -28,4 +28,5 @@ class User < ApplicationRecord
   end
 
   def is_admin? = true
+  def is_developer? = true
 end
