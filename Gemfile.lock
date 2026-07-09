@@ -143,7 +143,7 @@ GEM
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
     ast (2.4.3)
-    avo (4.0.10)
+    avo (4.0.11)
       actionview (>= 6.1)
       active_link_to
       activerecord (>= 6.1)
@@ -481,7 +481,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate (~> 3.2)
-  avo (> 4.0.0)
+  avo (> 4.0.10)
   avo-advanced_search (= 4.0.0)!
   avo-authorization (= 4.0.0)!
   avo-custom_controls (= 4.0.0)!
@@ -534,7 +534,7 @@ CHECKSUMS
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   annotate (3.2.0) sha256=9a61baa1fb13880aa3a8d9f62553889bb2a3b7970f88bbc66d3ac75a567780d3
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
-  avo (4.0.10) sha256=223aec3aa92439889b93c8c3cb0abeee435ed5ab37528eb12da0e2666a0c4036
+  avo (4.0.11) sha256=3e1d93402b393f73e994d8180ac6087c3e9019624a127dc587a9d6ce8ef92eec
   avo-advanced_search (4.0.0) sha256=f94d08d28fecefd5adbfe731799d866aebb08d2ecd3117559808bd2f44c90e94
   avo-authorization (4.0.0) sha256=1a6ccd7f57ffef0ecbbf849682646486bf47c274a79a43650a4250ac0f76045a
   avo-custom_controls (4.0.0) sha256=9ad111ede439f884112b08209907592632fdea2e08a7334dfc501e56b26c2a5b
