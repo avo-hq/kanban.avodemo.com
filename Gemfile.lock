@@ -488,7 +488,6 @@ DEPENDENCIES
   avo-dashboards (= 4.0.0)!
   avo-dynamic_filters (= 4.0.0)!
   avo-kanban (= 4.0.0)!
-  avo-licensing (> 4.0.5)!
   avo-menu (= 4.0.0)!
   avo-nested (= 4.0.0)!
   avo-record_reordering (= 4.0.0)!
