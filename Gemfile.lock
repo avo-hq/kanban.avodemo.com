@@ -30,8 +30,8 @@ GEM
       avo (>= 4.0.0)
       avo-licensing (>= 4.0.0)
       hotwire_combobox (~> 0.4.0)
-    avo-licensing (4.0.1)
-      avo (>= 4.0.0)
+    avo-licensing (4.0.7)
+      avo (>= 4.0.11)
       zeitwerk (>= 2.6.12)
     avo-menu (4.0.0)
       avo (>= 4.0.0)
@@ -488,6 +488,7 @@ DEPENDENCIES
   avo-dashboards (= 4.0.0)!
   avo-dynamic_filters (= 4.0.0)!
   avo-kanban (= 4.0.0)!
+  avo-licensing (> 4.0.5)!
   avo-menu (= 4.0.0)!
   avo-nested (= 4.0.0)!
   avo-record_reordering (= 4.0.0)!
@@ -542,7 +543,7 @@ CHECKSUMS
   avo-dynamic_filters (4.0.0) sha256=ade587e28346acf91e5ef4bc25fbfeaa2204fde157e60bb0ae4a79cca6e81263
   avo-icons (0.1.5) sha256=e9f03c268d52bb0dedf7530bfb0e968c2ef79bf9aa911c86b65364c16ae7ffc5
   avo-kanban (4.0.0) sha256=13c6780004098e1986347745b92242667f681041382c2ae41cd1e9de998935e6
-  avo-licensing (4.0.1) sha256=095204a2467e78f4026aa9a0114d80b388600511ff40ee7b7c7b6d09058802dc
+  avo-licensing (4.0.7) sha256=3f154b48e8e7821c5f1f8087a8cb16da3278ce50dd807a01593157589cceaf04
   avo-menu (4.0.0) sha256=95d84f8c89ddfdd2f6eb565194c4c3b1d30858e74d57cf2f041e4d90e58e4959
   avo-nested (4.0.0) sha256=02be50b59f1a4bcfa1ddee539851b30fdf0dd73cdf97d58b05a4bfa6fc6cc0d5
   avo-record_reordering (4.0.0) sha256=584a41fe296ffe43938fd26b1296f235298f2ec0169bb6d2c212c29493865c8a
